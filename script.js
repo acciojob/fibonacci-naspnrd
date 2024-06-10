@@ -1,9 +1,10 @@
 function fibonacci(num) {
-	// Base Case
-  if (num === 0 || num === 1) return num;
+	// Base case
+	if(num === 0 || num === 1)
+		return num;
 
-  return fibonacci(num - 1) + fibonacci(num - 2);
-	
+	// recursive case
+	return fibonacci(num - 1) + fibonacci(num - 2);
 }
 
 
